@@ -1,0 +1,55 @@
+body {
+  background-color: #393E46;
+  text-align: center;
+}
+.container-fluid{
+  padding:2% 5% 2% 5%;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+}
+
+h1 {
+  font-size: 6.5rem;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: #4ECCA3;
+  text-shadow: 5px 0px #232931;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: 'Indie Flower', cursive;
+  color: #4ECCA3;
+}
+
+.row{
+  margin: 5% auto 0% auto;
+  text-align: center;
+  width: 400px;
+}
+
+.dice1{
+  width: 100%;
+}
+.dice2{
+  width: 100%;
+}
+
+.p{
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+@media (max-width:1024px) {
+  .row{
+    width: 100%;
+    margin-top: 15%;
+
+  }
+.dice2{
+  margin-top: 5%;
+}
+}
